@@ -1,1 +1,26 @@
 master 1st commit1
+
+develop branch creation
+Log of the local repo:
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (master)
+$ git add Module2
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (master)
+$ git commit -m 'Module2 3d commit to master == Acceptance criteria #4'
+[master a3dc931] Module2 3d commit to master == Acceptance criteria #4
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Module2/File with screens.docx
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 9.81 KiB | 3.27 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:artsiom-halavach/CDP_ATM2017Q4.git
+   117e08b..a3dc931  master -> master
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
