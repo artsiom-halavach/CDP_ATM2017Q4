@@ -58,8 +58,13 @@ To github.com:artsiom-halavach/CDP_ATM2017Q4.git
 Branch 'develop' set up to track remote branch 'develop' from 'origin'. | for the rebase - Aliaksandr B.
 
 
+<<<<<<< HEAD
 add commit to masteradd commit to branch develop
 add one more commit to develop
 New string for conflictcommit to conflict - Aliaksandr B.
 \\saving both lines and add one with commentcommit to conflict - Aliaksandr B.
 New string for conflicadd one more commit to develop+
+=======
+add commit to branch develop
+add one more commit to develop
+>>>>>>> 9d997ce... second commit to develop
