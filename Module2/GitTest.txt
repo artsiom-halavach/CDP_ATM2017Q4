@@ -58,3 +58,6 @@ To github.com:artsiom-halavach/CDP_ATM2017Q4.git
 Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 
 
+add commit to master
+
+
