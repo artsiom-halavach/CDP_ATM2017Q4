@@ -62,4 +62,5 @@ Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 add commit to master
 add commit to branch develop
 add one more commit to develop
-New string for conflict
+New string for conflictcommit to conflict - Aliaksandr B.
+\\saving both lines and add one with comment
