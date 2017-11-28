@@ -24,3 +24,37 @@ To github.com:artsiom-halavach/CDP_ATM2017Q4.git
 Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (master)
 $ git checkout -b develop
 Switched to a new branch 'develop'
+
+
+
+Log of the first commit:
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (develop)
+$ git add Module2
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (develop)
+$ git commit -m 'Module2 develop branc creation == Acceptance criteria #5'
+[develop 0800e74] Module2 develop branc creation == Acceptance criteria #5
+ 1 file changed, 26 insertions(+), 1 deletion(-)
+ rewrite Module2/GitTest.txt (100%)
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (develop)
+$ git push
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+
+Artsiom_Halavach1@EPBYMINW1873 MINGW64 /d/CDP/GIT/CDP_ATM2017Q4 (develop)
+$ git push --set-upstream origin develop
+
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 838 bytes | 838.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:artsiom-halavach/CDP_ATM2017Q4.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+
