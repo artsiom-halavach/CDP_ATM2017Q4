@@ -58,5 +58,7 @@ To github.com:artsiom-halavach/CDP_ATM2017Q4.git
 Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 
 
-add commit to masteradd commit to branch develop
+add commit to master
+add commit to branch develop
 add one more commit to develop
+New string for conflicadd one more commit to develop
