@@ -62,4 +62,4 @@ add commit to master
 add commit to branch develop
 add one more commit to develop
 commit to conflict - Aliaksandr B.
-New string for conflicadd one more commit to develop
+New string for conflicadd one more commit to develop+
