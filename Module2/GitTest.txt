@@ -63,3 +63,5 @@ add one more commit to develop
 New string for conflictcommit to conflict - Aliaksandr B.
 \\saving both lines and add one with commentcommit to conflict - Aliaksandr B.
 New string for conflicadd one more commit to develop+
+
+1 cherry
