@@ -68,4 +68,4 @@ New string for conflicadd one more commit to develop+
 1 rebase
 2nd rebase
 master commit
-1
+1 2
