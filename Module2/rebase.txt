@@ -1,5 +1,6 @@
 created
 2 commit in rebase
+new commit, and more
 new commit
 new commit, and more
 new commit
