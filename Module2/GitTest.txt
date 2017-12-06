@@ -65,3 +65,4 @@ New string for conflictcommit to conflict - Aliaksandr B.
 New string for conflicadd one more commit to develop+
 
 1 cherry
+1 rebase
