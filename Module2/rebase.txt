@@ -1,3 +1,4 @@
 created
 2 commit in rebase
-new commit, and more
+2 commit in rebase
+new commit
