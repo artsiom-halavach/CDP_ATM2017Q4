@@ -2,10 +2,10 @@
 
 <suite name="CalculatorAllClasses" verbose="1">
 
-    <!--<listeners>-->
-        <!--<listener class-name="listeners.TestListener"></listener>-->
+    <listeners>
+        <listener class-name="listeners.TestListener"></listener>
         <!--<listener class-name="listeners.SuiteListener"></listener>-->
-    <!--</listeners>-->
+    </listeners>
 
     <test name="AllClassesRun">
         <classes>
