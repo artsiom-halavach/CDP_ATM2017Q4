@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorTrigonometryByGroupsSuiteSimple" verbose="2">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"></listener>
+    </listeners>
+
+    <groups>
+        <run>
+            <include name="simple"></include>
+            <exclude name="complex"></exclude>
+        </run>
+
+    </groups>
+
+    <test name="TrigonometryByGroupsSimple">
+        <classes>
+            <class name="CalculatorTgTest"></class>
+            <class name="CalculatorSinTest"></class>
+            <class name="CalculatorCosTest"></class>
+            <class name="CalculatorCtgTest"></class>
+
+        </classes>
+    </test>
+</suite>

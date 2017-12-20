@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [CalculatorArithmeticSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test name="Arith(failed)" parallel="methods">
+    <classes>
+      <class name="CalculatorMultTestDouble">
+        <methods>
+          <include name="MultiplyVerivfication" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- CalculatorMultTestDouble -->
+      <class name="CalculatorPowerTest">
+        <methods>
+          <include name="PowerVerivfication" invocation-numbers="0 3"/>
+        </methods>
+      </class> <!-- CalculatorPowerTest -->
+    </classes>
+  </test> <!-- Arith(failed) -->
+</suite> <!-- Failed suite [CalculatorArithmeticSuite] -->

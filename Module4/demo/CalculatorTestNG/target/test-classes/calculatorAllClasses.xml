@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorAllClasses" verbose="1">
+
+    <!--<listeners>-->
+        <!--<listener class-name="listeners.TestListener"></listener>-->
+        <!--<listener class-name="listeners.SuiteListener"></listener>-->
+    <!--</listeners>-->
+
+    <test name="AllClassesRun">
+        <classes>
+            <class name="CalculatorSubTest">
+            </class>
+            <class name="CalculatorSumTest">
+            </class>
+            <class name="CalculatorSumTestDouble"></class>
+            <class name="CalculatorDivTest"></class>
+            <class name="CalculatorDivTestDouble"></class>
+            <class name="CalculatorMultTest"></class>
+            <class name="CalculatorMultTestDouble"></class>
+            <class name="CalculatorPowerTest"></class>
+            <class name="CalculatorSubTestDouble"></class>
+            <class name="CalculatorTgTest"></class>
+            <class name="CalculatorSinTest"></class>
+            <class name="CalculatorCosTest"></class>
+            <class name="CalculatorCtgTest"></class>
+
+        </classes>
+    </test>
+</suite>

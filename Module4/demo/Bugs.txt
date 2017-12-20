@@ -1,0 +1,29 @@
+Bug1 : multiplication of double numbers returns incorrect values
+Values: a=1.15, b=-3.18
+Expected :-3.657
+Actual   :-4.0
+
+
+Bug2 : exponentiation for non-integer power number is incorrect (a^b)
+Values: a=2, b=1.5
+Expected :2.8284271
+Actual   :2.0
+
+Bug3 : Tg(x) is working incorrect
+x=5
+Expected :-3.380515
+Actual   :1.0
+
+Bug4 : Cos(x) is working incorrect
+x=5
+Expected :0.996194698091
+Actual   :-0.9589242746631385
+
+Bug5: Ctg(x) is working incorrect
+x=5
+Expected :-3.380515
+Actual   :0.9999092042625951
+
+Bug6: Big values can't be processed
+summarizing of numbers like 46116807380 returns error
+

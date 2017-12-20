@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Calculator]" parallel="methods">
+  <test name="Sub(failed)" parallel="methods">
+    <classes>
+      <class name="CalculatorTgTest">
+        <methods>
+          <include name="TgVerivfication" invocation-numbers="0 1 2 3 5"/>
+        </methods>
+      </class> <!-- CalculatorTgTest -->
+    </classes>
+  </test> <!-- Sub(failed) -->
+</suite> <!-- Failed suite [Calculator] -->

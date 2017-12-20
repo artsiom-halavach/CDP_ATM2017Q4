@@ -1,0 +1,13 @@
+created
+2 commit in rebase
+new commit, and more
+1 more after rebasing
+<<<<<<< HEAD
+
+new commit
+new commit, and more
+new commit
+new commit, and more
+=======
+1
+>>>>>>> 3f80c77f44535500fd546e6111b56d09c7279869

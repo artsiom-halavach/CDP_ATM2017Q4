@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="22" total="59" passed="37">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TmpSuite" duration-ms="0" started-at="2017-12-20T07:37:51Z" finished-at="2017-12-20T07:37:51Z">
+    <groups>
+    </groups>
+  </suite> <!-- TmpSuite -->
+  <suite name="CalculatorTrigonometrySuite" duration-ms="6" started-at="2017-12-20T07:37:51Z" finished-at="2017-12-20T07:37:51Z">
+    <groups>
+    </groups>
+    <test name="Trigonometry" duration-ms="6" started-at="2017-12-20T07:37:51Z" finished-at="2017-12-20T07:37:51Z">
+      <class name="CalculatorSinTest">
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.95892427]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.2194583150943954]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.2177009621722568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7853981633974483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.70710678118]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[314.159265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+        <test-method status="PASS" signature="SinVerivfication(double, double)[pri:0, instance:CalculatorSinTest@12bc6874]" name="SinVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.14112]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinVerivfication -->
+      </class> <!-- CalculatorSinTest -->
+      <class name="CalculatorTgTest">
+        <test-method status="FAIL" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[314.159265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorTgTest.TgVerivfication(CalculatorTgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+        <test-method status="FAIL" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5707963267948966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorTgTest.TgVerivfication(CalculatorTgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+        <test-method status="FAIL" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.380515]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [-3.380515]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [-3.380515]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorTgTest.TgVerivfication(CalculatorTgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+        <test-method status="FAIL" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [NaN] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [NaN] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorTgTest.TgVerivfication(CalculatorTgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+        <test-method status="PASS" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7853981633974483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+        <test-method status="FAIL" signature="TgVerivfication(double, double)[pri:0, instance:CalculatorTgTest@ba4d54]" name="TgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.8844384070133445]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.2206562816240236]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [1.2206562816240236]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [1.2206562816240236]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorTgTest.TgVerivfication(CalculatorTgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgVerivfication -->
+      </class> <!-- CalculatorTgTest -->
+      <class name="CalculatorCosTest">
+        <test-method status="FAIL" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCosTest.CosVerivfication(CalculatorCosTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+        <test-method status="FAIL" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.996194698091]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-0.9589242746631385] but found [0.996194698091]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-0.9589242746631385] but found [0.996194698091]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCosTest.CosVerivfication(CalculatorCosTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+        <test-method status="FAIL" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.989992496]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.1411200080598672] but found [-0.989992496]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.1411200080598672] but found [-0.989992496]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCosTest.CosVerivfication(CalculatorCosTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+        <test-method status="FAIL" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[314.159265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-3.58979318971365E-7] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-3.58979318971365E-7] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCosTest.CosVerivfication(CalculatorCosTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+        <test-method status="FAIL" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7600299227213189]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.7248153960119976]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.6889431338680798] but found [0.7248153960119976]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.6889431338680798] but found [0.7248153960119976]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCosTest.CosVerivfication(CalculatorCosTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+        <test-method status="PASS" signature="CosVerivfication(double, double)[pri:0, instance:CalculatorCosTest@de0a01f]" name="CosVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataToTestCos" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7853981633974483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.70710678118]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosVerivfication -->
+      </class> <!-- CalculatorCosTest -->
+      <class name="CalculatorCtgTest">
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[314.159265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5707963267948966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.9171523356672744] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.9171523356672744] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.380515]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.9999092042625951] but found [-3.380515]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.9999092042625951] but found [-3.380515]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7853981633974483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.6557942026326724] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.6557942026326724] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [Infinity]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.33014470384879624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.918118557496839]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.3186507937588219] but found [2.918118557496839]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.3186507937588219] but found [2.918118557496839]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.141592653589793]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.99627207622075] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.99627207622075] but found [Infinity]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+        <test-method status="FAIL" signature="CtgVerivfication(double, double)[pri:0, instance:CalculatorCtgTest@4c75cab9]" name="CtgVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.356194490192345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.9821933800072388] but found [-1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.9821933800072388] but found [-1.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorCtgTest.CtgVerivfication(CalculatorCtgTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CtgVerivfication -->
+      </class> <!-- CalculatorCtgTest -->
+    </test> <!-- Trigonometry -->
+  </suite> <!-- CalculatorTrigonometrySuite -->
+  <suite name="CalculatorArithmeticSuite" duration-ms="25" started-at="2017-12-20T07:37:51Z" finished-at="2017-12-20T07:37:51Z">
+    <groups>
+    </groups>
+    <test name="Arith" duration-ms="25" started-at="2017-12-20T07:37:51Z" finished-at="2017-12-20T07:37:51Z">
+      <class name="CalculatorSumTest">
+        <test-method status="PASS" signature="SummaryVerivfication(long, long, long)[pri:0, instance:CalculatorSumTest@6fdb1f78]" name="SummaryVerivfication" duration-ms="4" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+        <test-method status="PASS" signature="SummaryVerivfication(long, long, long)[pri:0, instance:CalculatorSumTest@6fdb1f78]" name="SummaryVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+        <test-method status="PASS" signature="SummaryVerivfication(long, long, long)[pri:0, instance:CalculatorSumTest@6fdb1f78]" name="SummaryVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+      </class> <!-- CalculatorSumTest -->
+      <class name="CalculatorSubTestDouble">
+        <test-method status="PASS" signature="SubtractionVerivfication(double, double, double)[pri:0, instance:CalculatorSubTestDouble@60215eee]" name="SubtractionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+        <test-method status="PASS" signature="SubtractionVerivfication(double, double, double)[pri:0, instance:CalculatorSubTestDouble@60215eee]" name="SubtractionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+        <test-method status="PASS" signature="SubtractionVerivfication(double, double, double)[pri:0, instance:CalculatorSubTestDouble@60215eee]" name="SubtractionVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+      </class> <!-- CalculatorSubTestDouble -->
+      <class name="CalculatorPowerTest">
+        <test-method status="FAIL" signature="PowerVerivfication(double, double, double)[pri:0, instance:CalculatorPowerTest@44e81672]" name="PowerVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.8338593590405347]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.7561436672967865] but found [0.8338593590405347]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.7561436672967865] but found [0.8338593590405347]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorPowerTest.PowerVerivfication(CalculatorPowerTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowerVerivfication -->
+        <test-method status="FAIL" signature="PowerVerivfication(double, double, double)[pri:0, instance:CalculatorPowerTest@44e81672]" name="PowerVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.65]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.3224999999999998] but found [2.65]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.3224999999999998] but found [2.65]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorPowerTest.PowerVerivfication(CalculatorPowerTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowerVerivfication -->
+        <test-method status="PASS" signature="PowerVerivfication(double, double, double)[pri:0, instance:CalculatorPowerTest@44e81672]" name="PowerVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowerVerivfication -->
+        <test-method status="PASS" signature="PowerVerivfication(double, double, double)[pri:0, instance:CalculatorPowerTest@44e81672]" name="PowerVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowerVerivfication -->
+      </class> <!-- CalculatorPowerTest -->
+      <class name="CalculatorSumTestDouble">
+        <test-method status="PASS" signature="SummaryVerivfication(double, double, double)[pri:0, instance:CalculatorSumTestDouble@51016012]" name="SummaryVerivfication" duration-ms="3" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+        <test-method status="PASS" signature="SummaryVerivfication(double, double, double)[pri:0, instance:CalculatorSumTestDouble@51016012]" name="SummaryVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+        <test-method status="PASS" signature="SummaryVerivfication(double, double, double)[pri:0, instance:CalculatorSumTestDouble@51016012]" name="SummaryVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryVerivfication -->
+      </class> <!-- CalculatorSumTestDouble -->
+      <class name="CalculatorMultTest">
+        <test-method status="PASS" signature="MultiplyVerivfication(long, long, long)[pri:0, instance:CalculatorMultTest@1517365b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="PASS" signature="MultiplyVerivfication(long, long, long)[pri:0, instance:CalculatorMultTest@1517365b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="PASS" signature="MultiplyVerivfication(long, long, long)[pri:0, instance:CalculatorMultTest@1517365b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="PASS" signature="MultiplyVerivfication(long, long, long)[pri:0, instance:CalculatorMultTest@1517365b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="PASS" signature="MultiplyVerivfication(long, long, long)[pri:0, instance:CalculatorMultTest@1517365b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+      </class> <!-- CalculatorMultTest -->
+      <class name="CalculatorDivTestDouble">
+        <test-method status="PASS" signature="DivisionVerivfication(double, double, double)[pri:0, instance:CalculatorDivTestDouble@2280cdac]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(double, double, double)[pri:0, instance:CalculatorDivTestDouble@2280cdac]" name="DivisionVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(double, double, double)[pri:0, instance:CalculatorDivTestDouble@2280cdac]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(double, double, double)[pri:0, instance:CalculatorDivTestDouble@2280cdac]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+      </class> <!-- CalculatorDivTestDouble -->
+      <class name="CalculatorSubTest">
+        <test-method status="PASS" signature="SubtractionVerivfication(long, long, long)[pri:0, instance:CalculatorSubTest@3f102e87]" name="SubtractionVerivfication" duration-ms="4" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+        <test-method status="PASS" signature="SubtractionVerivfication(long, long, long)[pri:0, instance:CalculatorSubTest@3f102e87]" name="SubtractionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+        <test-method status="PASS" signature="SubtractionVerivfication(long, long, long)[pri:0, instance:CalculatorSubTest@3f102e87]" name="SubtractionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractionVerivfication -->
+      </class> <!-- CalculatorSubTest -->
+      <class name="CalculatorDivTest">
+        <test-method status="PASS" signature="DivisionByZeroVerivfication()[pri:0, instance:CalculatorDivTest@29444d75]" name="DivisionByZeroVerivfication" duration-ms="5" started-at="2017-12-20T10:37:51Z" finished-at="2017-12-20T10:37:51Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at CalculatorDivTest.DivisionByZeroVerivfication(CalculatorDivTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionByZeroVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(long, long, long)[pri:0, instance:CalculatorDivTest@29444d75]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(long, long, long)[pri:0, instance:CalculatorDivTest@29444d75]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(long, long, long)[pri:0, instance:CalculatorDivTest@29444d75]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+        <test-method status="PASS" signature="DivisionVerivfication(long, long, long)[pri:0, instance:CalculatorDivTest@29444d75]" name="DivisionVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionVerivfication -->
+      </class> <!-- CalculatorDivTest -->
+      <class name="CalculatorMultTestDouble">
+        <test-method status="FAIL" signature="MultiplyVerivfication(double, double, double)[pri:0, instance:CalculatorMultTestDouble@4fccd51b]" name="MultiplyVerivfication" duration-ms="1" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3.18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3.657]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-4.0] but found [-3.657]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-4.0] but found [-3.657]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorMultTestDouble.MultiplyVerivfication(CalculatorMultTestDouble.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="FAIL" signature="MultiplyVerivfication(double, double, double)[pri:0, instance:CalculatorMultTestDouble@4fccd51b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9.975]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-10.0] but found [-9.975]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-10.0] but found [-9.975]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at org.testng.Assert.assertEquals(Assert.java:222)
+	at CalculatorMultTestDouble.MultiplyVerivfication(CalculatorMultTestDouble.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+        <test-method status="PASS" signature="MultiplyVerivfication(double, double, double)[pri:0, instance:CalculatorMultTestDouble@4fccd51b]" name="MultiplyVerivfication" duration-ms="0" started-at="2017-12-20T10:37:51Z" data-provider="dataProviderAdd" finished-at="2017-12-20T10:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyVerivfication -->
+      </class> <!-- CalculatorMultTestDouble -->
+    </test> <!-- Arith -->
+  </suite> <!-- CalculatorArithmeticSuite -->
+</testng-results>
