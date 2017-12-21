@@ -12,10 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.TimeUnit;
@@ -45,7 +42,7 @@ public static boolean isElementPresent(WebDriver driver, By by) {
     }
 }
 
-    @BeforeClass(description = "Start browser")
+    @BeforeTest(description = "Start browser")
     public void startBrowser() {
         //alternative way to set environmental variable at runtime
         System.setProperty("webdriver.chrome.driver", "d:\\chromedriver.exe");
@@ -105,7 +102,7 @@ public static boolean isElementPresent(WebDriver driver, By by) {
         driver.findElement(By.cssSelector("#cancelAskFormButton")).click();
 
         Assert.assertFalse(driver.getWindowHandles().contains("winHandleAsk"), "still appearing");
-
+        driver.switchTo().window(winHandleBefore);
     }
 
     public static ExpectedCondition<WebElement> elementToBeClickable(By locator) {
@@ -168,7 +165,7 @@ public static boolean isElementPresent(WebDriver driver, By by) {
 
 
 
-    @AfterClass(description = "Stop Browser")
+    @AfterTest(description = "Stop Browser")
     public void stopBrowser() {
         driver.quit();
         System.out.println("Browser was successfully quited.");
